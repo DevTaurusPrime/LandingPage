@@ -20,8 +20,7 @@
 }
 
 .header__logo {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
+    font-size: 24px;
     font-weight: 700;
     font-style: normal;
 }
@@ -48,7 +47,6 @@
 
 .welcome h1 {
     font-size: 52px;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     margin-bottom: 10px;
@@ -96,7 +94,6 @@
 
 .about h2 {
     font-size: 32px;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
     margin-bottom: 35px;
@@ -151,3 +148,30 @@
 }
 
 /* --------------- ACTION --------------- */
+
+.action .container {
+    padding: 60px 0;
+}
+
+.action__wrapper {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px;
+    border-radius: 10px;
+    color: white;
+}
+
+.action__wrapper {}
+
+.action__title-wrapper h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action__wrapper button {
+    padding: 10px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
