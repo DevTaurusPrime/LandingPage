@@ -88,3 +88,66 @@
     border-radius: 5px;
     padding: 10px 30px;
 }
+
+/* --------------- ABOUT --------------- */
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 35px;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__info-wrapper {
+    display: flex;
+    gap: 40px;
+}
+
+.about__info-card {
+    text-align: center;
+}
+
+.about__info-card img {
+    box-shadow: 2px 15px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* --------------- TESTIMONIAL --------------- */
+
+.testimonial {
+    text-align: center;
+
+}
+
+.testimonial__wrapper {
+    background-color: #e8e9eb;
+}
+
+.testimonial .container {
+    padding: 70px 0;
+}
+
+.testimonial__text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.testimonial__name {
+    text-align: end;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* --------------- ACTION --------------- */
